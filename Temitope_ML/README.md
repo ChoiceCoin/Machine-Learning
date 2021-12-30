@@ -2,6 +2,7 @@
 
 Building a project that can be actualised by using practical machine learning algorithms to build an AI Powered Bot to educate and communicate the idea behind Choice Coin which involves promoting decentralised voting processes.
 
+### YOUTUBE LINK FOR THE DEMO VIDEO ====> https://youtu.be/NvSnzY2-Iag
 ## TECHNOLOGIES USED IN THIS PROJECT
 1. Language -----> Python
 
