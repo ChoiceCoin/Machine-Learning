@@ -19,6 +19,8 @@ from ML import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index,name='index'),
+    path('', views.index,name='home',),
+    path('get_choice_coin/',views.get_choice,name='get_choice_coin'),
+    path('asset_opt_in/',views.asset_opt_in,name='asset_opt_in')
 
 ]

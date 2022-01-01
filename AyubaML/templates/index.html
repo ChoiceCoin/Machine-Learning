@@ -11,8 +11,46 @@
     <title>home</title>
 </head>
 <body>
-<div class="container text-success">Choice Home</div>
+{% block nav %}
+    <div class="nav navbar-dark border-bottom mt-4">
+        <ul class="">
+            <li class="float-start nav-link"><a href="{% url 'home' %}">Home</a></li>
+            <li class="float-start nav-link">About</li>
+            <li class="float-start nav-link">Contact</li>
+        </ul>
+    </div>
+{% endblock %}
 
+{% block instructions %}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="card card-body">
+                <ul>
+                    <p><h4 class="text-primary">Choice Coin Basics For eLearning</h4></p>
+                    <div class="container">
+                        <li><a href="https://choice-coin.com/">All about Choice Coin</a></li>
+                        <li><a href="https://choice-coin.com/documentation.html">Choice Benefits</a></li>
+                    </div>
+
+                    <p><h4 class="text-primary">Please chat with us to know more!!!</h4></p>
+                    <p class="text-success">For a quick start just go ahead and ask us the following</p>
+                    <div class="container">
+                        <li><a href="{% url 'get_choice_coin' %}">How to get choice coin</a></li>
+                        <li><a href="{% url 'asset_opt_in' %}">How to opt-in asset</a></li>
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 
 <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 </body>
