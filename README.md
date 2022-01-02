@@ -5,7 +5,8 @@ A simple project created with django containing links and a chatbot to demonstra
 first navigate to folder where manage.py lives
 
 cd AyubaML
+
 pip install -r requirements.txt
 python manage.py runserver
 
-visit the link localhost:800
+visit the link localhost:8000
