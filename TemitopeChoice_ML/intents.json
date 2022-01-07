@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, welcome to Choice Coin :-)",
+        "Hello, thanks for visiting Choice Coin",
+        "Hi there,welcome to Choice Coin... what can I do for you?",
+        "Hi Choice Coin here, how can I help?"
+      ]
+    },
+    {
+      "tag": "inquires",
+      "patterns": [
+        "What is Choice Coin?",
+        "How can i know more about Choice Coin", 
+        "What was Choice Built for?",
+        "What is Choice Coin Liquidity Program?"
+      ],
+      "responses": [
+        "Choice Coin is a governance token and open source software for decentralized voting.",
+        "Choice Coin Network prioritizes democracy, and will incentivize its participants to help it fundamentally change how decisions are made on a large scale. ",
+        "Choice Coin is a governance token that solves the decentralized voting problem by introducing a digital asset for voting on a distributed ledger..",
+        "Choice Coin is also entirely open source, with no formal strucutre or entity attached to it. Since its inception, Choice Coin has attracted a plethora of contributors from all over the world."
+      ]
+    },
+    {
+      "tag": "purchase",
+      "patterns": ["How can i get $Choice Coin?"],
+      "responses": ["Choice Coin is now available on TinyMan! TinyMan is a Decentralized Exchange and Automated Market Maker operating on the Algorand Blockchain. It allows individuals to swap various ASAs for one another. Get Choice Coin on https://tinyman.org/ today!"]
+    },
+    {
+      "tag": "listing",
+      "patterns": [
+        "Is Choice Coin available?",
+        "Has Choice Coin been listed?",
+        "Where can i trade choice coin?"
+      ],
+      "responses": [
+        "The Choice Coin Network plans to attach a price to its native token, CHOICE, by the end of Q3 2021. This will most likely be done through a decentralized exchange on the Algorand Blockchain such as Tinyman or AlgoDex. Choice Coin's inital liquidity pool will be with ALGO, allowing members of both communities to seamlessly trade between the two assets. With Tinyman launching by the end of Q3 2021, the Choice Coin Community is excited to have another aveneue to promote Choice, Decentralized Voting, and Democracy.",
+        "You can swap any verified Algorand ASA or it's native Algo to $CHOICE ",
+        "You can view Choice Coin on https://tinychart.org/"
+      ]
+    },
+    {
+      "tag": "Choice Charities",
+      "patterns": [
+        "I heard about Choice Charities, how do i get more info about it?",
+        "What is Choice Charities?",
+        "How can i benefit from Choice Charities?",
+        "Is Choice Charities real?"
+      ],
+      "responses": [
+        "The Choice Coin Network plans to launch Choice Charities, a charity hosted by Fortior Blockchain, for its native token.",
+        "The goal of Choice Charities will be to identify charities and non-profit organizations that engage in democratic and equitable practices. Choice Coin holders will be able to use Choice to vote for Choice charitable contributions."
+      ]
+    },
+    {
+      "tag": "voting",
+      "patterns": [
+        "Where can i vote on Choice Coin Network?",
+        "Can i vote on Choice Coin DAO?",
+        "Where can i participate in decentralized decisions?"
+      ],
+      "responses": [
+        "For the Choice Coin DAO, Decentralized Decisions leverages Proof-of-Participation as a governance mechanism, allowing voters to have a larger say in direct proportion to their contribution to the network.",
+        "Choice Coin Voting is live at https://decentralized-decisions.app/"
+      ]
+    },
+    {
+      "tag": "rewards",
+      "patterns": [
+        "I heard about Choice Coin Rewards Program",
+        "How can i participate in choice rewards?",
+        "What is Choice Rewards Program?"
+      ],
+      "responses": [
+        "The Choice Coin Network plans to continue allocating resources and assets to its rewards programs. These rewards programs have been extremely effective over the past two months, with the network growing at an exponential rate with regards to academic output, social media presence, and development. The Choice Coin Community remains keen on growing its membership in the months to come.",
+        "As the largest OSS project on Algorand Choice Coin strives to excel in open source innovation. Choice Coin is currently focusing on rewarding contributions to this Repository and especially encouraging women to contribute. We recently made 6,000,000.00 Choice available specifically to women to build on Algorand. Additioanlly, Choice Coin commonly hosts bash style hackathons to reward developers and makes Bronze Badge awards available to developers for making significant contributions to the Choice Coin Voting Repository. If you would like to get started building with us, please join our Discord, open a pull request, or post an issue here. To make a pull request please place all of your files in a single folder and add the folder to the Bronze_Badges folder in this repository. Please also add a description regarding the contribution."
+      ]
+    }
+  ]
+}
